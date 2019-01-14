@@ -18,6 +18,8 @@ Scrap type is a module to manage Scrap    """,
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'stock'],
+    'price': 99, 
+    'currency': 'EUR',
 
     # always loaded
     'data': [
