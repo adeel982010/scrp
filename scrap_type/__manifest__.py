@@ -29,7 +29,7 @@ Scrap type is a module to manage Scrap    """,
     'demo': [
         'demo/demo.xml',
     ],
-    'images': ['static/description/banner.jpg'],
+    'images': ['static/description/logo.png'],
     'license': 'OPL-1',
     'installable': True,
     'auto_install': False,
