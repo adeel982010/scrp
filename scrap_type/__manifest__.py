@@ -13,8 +13,8 @@ Scrap type is a module to manage Scrap    """,
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Test',
-    'version': '0.1',
+    'category': 'Educational',
+    'version': '11.0.1',
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'stock'],
@@ -29,4 +29,10 @@ Scrap type is a module to manage Scrap    """,
     'demo': [
         'demo/demo.xml',
     ],
+    'images': ['static/description/banner.jpg'],
+    'license': 'OPL-1',
+    'installable': True,
+    'auto_install': False,
+    'application': True,
+
 }
