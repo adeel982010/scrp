@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "ScrapType",
+    'name': "Scrap Type",
 
-    'summary': """ Scrap management""",
+    'summary': """ Store Scrap management""",
 
     'description': """
 Scrap type is a module to manage Scrap    """,
 
-    'author': "Axiom",
-    'website': "http://www.yourcompany.com",
+    'author': "Qwexer",
+    'website': "http://www.qwexer.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
