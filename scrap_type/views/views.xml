@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="stockscrap">
+            <field name="name">stock.scrap.form</field>
+            <field name="model">stock.scrap</field>
+            <field name="inherit_id" ref="stock.stock_scrap_form_view"/>
+            <field name="arch" type="xml">
+               <xpath expr="//field[@name='lot_id']" position="before">
+                 <field name="scrap_type"/>
+               </xpath>
+            </field>
+    </record>
+
+  <record model="ir.actions.act_window" id="scrap_type_action">
+    <field name="name">ScrapType</field>
+    <field name="res_model">scraptype.scraptype</field>
+    <field name="view_type">form</field>
+    <field name="view_mode">tree,form</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Add your Scrap list</p>
+    </field>
+  </record>
+
+  <menuitem id="form_menu" name="Scrap Type" parent="stock.menu_stock_inventory_control" action="scrap_type_action"/>
+
+
+</odoo>
