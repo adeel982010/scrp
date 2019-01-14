@@ -1,0 +1,5 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+scraptype_scraptype_manager,scraptype_scraptype_manager,model_scraptype_scraptype,stock.group_stock_manager,1,1,1,1
+scraptype_scraptype_user,scraptype_scraptype_user,model_scraptype_scraptype,stock.group_stock_manager,1,0,0,0
+
+
